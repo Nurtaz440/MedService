@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">MedService</string>
+
+
+    <!-- Home-->
+    <string name="main">Asosiy</string>
+    <string name="injiner">Bizni injinerlar</string>
+    <string name="aparatlar_1">Yangi Apparatlar</string>
+    <string name="aparatlar_2">Eski Apparatlar</string>
+    <string name="joylashuv">Kantakt va Joylashuv</string>
+    <string name="my_account">Profilim</string>
+
+
+    <string name="action_ok">Ha</string>
+    <string name="msg_unknown_error">Internetga ulanish sust</string>
+    <string name="on_back_pressed">orqaga</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

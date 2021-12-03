@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/homeFragment">
 
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="mening.dasturim.medservice.ui.main.user.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/locationAndContact"
+        android:name="mening.dasturim.medservice.ui.main.user.location.LocationAndContact"
+        android:label="fragment_location_and_contact"
+        tools:layout="@layout/fragment_location_and_contact" />
+    <fragment
+        android:id="@+id/myProflle"
+        android:name="mening.dasturim.medservice.ui.main.user.personalAccount.MyProflle"
+        android:label="fragment_my_proflle"
+        tools:layout="@layout/fragment_my_proflle" />
+    <fragment
+        android:id="@+id/newEquipmentFragment"
+        android:name="mening.dasturim.medservice.ui.main.user.newEquipment.NewEquipmentFragment"
+        android:label="fragment_new_equipment"
+        tools:layout="@layout/fragment_new_equipment" />
+    <fragment
+        android:id="@+id/oldEquipmentFragment"
+        android:name="mening.dasturim.medservice.ui.main.user.oldEquipment.OldEquipmentFragment"
+        android:label="fragment_old_equipment"
+        tools:layout="@layout/fragment_old_equipment" />
+    <fragment
+        android:id="@+id/ourEnginerFragment"
+        android:name="mening.dasturim.medservice.ui.main.user.enginer.OurEnginerFragment"
+        android:label="fragment_our_enginer"
+        tools:layout="@layout/fragment_our_enginer" />
 </navigation>

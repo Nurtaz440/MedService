@@ -38,6 +38,24 @@
     <string name="komil">Komil Hamidboyev</string>
     <string name="asror">Asror Kenjaboyev</string>
     <string name="empity"> </string>
+    <string name="_4_6">4.6</string>
+    <string name="_8">8</string>
+    <string name="years_of_experience">yil</string>
+    <string name="reyting">reyting</string>
+    <string name="current_job">bosh injiner</string>
+    <string name="call">tel qilish</string>
+    <string name="past_job">ishchi</string>
+    <string name="send">yuborish</string>
+    <string name="undo">qaytarish</string>
+
+    <string name="university_name">Toshkent Turin Palitexnika Universiteti</string>
+    <string name="about_yourself">
+        KT skaneri, MRI skaneri yoki boshqa muhim tibbiy asbob-uskunalar buzilganda, tibbiy asbob-uskunalarni
+        ta\'mirlash ustalari muammoni hal qiladigan va tuzatadigan odamlardir.
+        Ba\'zi biomedikal uskunalar bo\'yicha mutaxassislar qurilmalarga jismoniy sozlashlarni amalga oshirish
+        uchun tornavida va lehim dazmollaridan foydalanadilar,
+        boshqalari esa mashinalarni kalibrlash uchun ishlatiladigan
+        maxsus kompyuter dasturlarini yangilashlari kerak. </string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

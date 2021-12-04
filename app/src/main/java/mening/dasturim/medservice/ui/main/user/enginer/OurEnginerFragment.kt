@@ -19,8 +19,8 @@ class OurEnginerFragment : BaseFragment<FragmentOurEnginerBinding, OurEnginerVM>
 
     fun setUp() {
 
-        ourEnginerAdapter= OurEnginerAdapter {
-          //  findNavController().navigate(R.id.ourEnginerDitails)
+        ourEnginerAdapter= OurEnginerAdapter { item->
+            findNavController().navigate(R.id.enginersDetailsFragment)
         }
         ourEnginerAdapter.setData(Constants.getOurEnginersItems())
         binding.rvEnginers.layoutManager=LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)

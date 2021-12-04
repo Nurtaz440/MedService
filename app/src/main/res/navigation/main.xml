@@ -34,7 +34,13 @@
         android:id="@+id/ourEnginerFragment"
         android:name="mening.dasturim.medservice.ui.main.user.enginer.OurEnginerFragment"
         android:label="fragment_our_enginer"
-        tools:layout="@layout/fragment_our_enginer" />
+        tools:layout="@layout/fragment_our_enginer" >
+        <action
+            android:id="@+id/action_ourEnginerFragment_to_enginersDetailsFragment"
+            app:destination="@id/enginersDetailsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
     <fragment
         android:id="@+id/newFeatures"
         android:name="mening.dasturim.medservice.ui.main.user.newFeature.NewFeatures"
@@ -50,4 +56,9 @@
         android:name="mening.dasturim.medservice.ui.main.user.news.Newsfragment"
         android:label="fragment_newsfragment"
         tools:layout="@layout/fragment_newsfragment" />
+    <fragment
+        android:id="@+id/enginersDetailsFragment"
+        android:name="mening.dasturim.medservice.ui.main.user.enginerDetails.EnginersDetailsFragment"
+        android:label="fragment_enginers_details"
+        tools:layout="@layout/fragment_enginers_details" />
 </navigation>

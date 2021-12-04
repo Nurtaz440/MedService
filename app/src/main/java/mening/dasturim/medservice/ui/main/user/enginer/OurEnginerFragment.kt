@@ -1,20 +1,34 @@
 package mening.dasturim.medservice.ui.main.user.enginer
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import mening.dasturim.medservice.R
+import mening.dasturim.medservice.data.constants.Constants
+import mening.dasturim.medservice.databinding.FragmentOurEnginerBinding
+import mening.dasturim.medservice.ui.base.BaseFragment
 
-class OurEnginerFragment : Fragment() {
+class OurEnginerFragment : BaseFragment<FragmentOurEnginerBinding, OurEnginerVM>() {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_our_enginer, container, false)
+    private lateinit var ourEnginerAdapter: OurEnginerAdapter
+
+    override fun onBound() {
+        setUp()
     }
+
+    fun setUp() {
+
+        ourEnginerAdapter= OurEnginerAdapter {
+          //  findNavController().navigate(R.id.ourEnginerDitails)
+        }
+        ourEnginerAdapter.setData(Constants.getOurEnginersItems())
+        binding.rvEnginers.layoutManager=LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)
+        binding.rvEnginers.adapter=ourEnginerAdapter
+    }
+
+    override fun getLayoutResId() = R.layout.fragment_our_enginer
+    override val vm: OurEnginerVM
+        get() = ViewModelProvider(this).get(OurEnginerVM::class.java)
 
 }

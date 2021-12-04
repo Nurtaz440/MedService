@@ -27,6 +27,18 @@
 
 
     <string name="medical_news">Tibbiyot yangiliklari</string>
+    <string name="enginer">Injner</string>
+    <string name="expirence">Tajribasi</string>
+    <string name="comment">Izoh</string>
+    <string name="clinic_name">Ishlash joyi</string>
+    <string name="enginer_detail">Injiner haqida ma\'lumot</string>
+    <string name="acception">Injiner bilan bog\'lanish</string>
+
+    <string name="sevinch">Sevinch Raxmanova</string>
+    <string name="komil">Komil Hamidboyev</string>
+    <string name="asror">Asror Kenjaboyev</string>
+    <string name="empity"> </string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

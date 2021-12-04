@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import mening.dasturim.medservice.R
 import mening.dasturim.medservice.data.constants.Constants
 import mening.dasturim.medservice.databinding.FragmentHomeBinding
@@ -38,7 +39,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding,HomeVM>() {
 
         newsAdapter= NewsAdapter {  }
        // newsAdapter.setData(Constants.getNewsItems())
-        binding.rvNews.layoutManager=LinearLayoutManager(requireContext())
+        binding.rvNews.layoutManager=LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)
         binding.rvNews.adapter=adapter
     }
 

@@ -7,6 +7,8 @@
     <string name="injiner">Bizni injinerlar</string>
     <string name="aparatlar_1">Yangi Apparatlar</string>
     <string name="aparatlar_2">Eski Apparatlar</string>
+    <string name="new_feature">Yangi Qisimlar</string>
+    <string name="old_feature">Eski Qisimlar</string>
     <string name="joylashuv">Kantakt va Joylashuv</string>
     <string name="my_account">Profilim</string>
 
@@ -22,6 +24,9 @@
     <string name="lor">Lor</string>
     <string name="travma">Travmatologiya</string>
     <string name="urolog">Uralogiya</string>
+
+
+    <string name="medical_news">Tibbiyot yangiliklari</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

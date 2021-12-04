@@ -69,6 +69,8 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainVM>() {
                 R.id.old_equip -> navController.navigate(R.id.oldEquipmentFragment)
                 R.id.location -> navController.navigate(R.id.locationAndContact)
                 R.id.new_equip -> navController.navigate(R.id.newEquipmentFragment)
+                R.id.new_feature -> navController.navigate(R.id.newFeatures)
+                R.id.old_feature -> navController.navigate(R.id.oldFeatures)
             }
             binding.dlMenu.closeDrawer(GravityCompat.START)
             true

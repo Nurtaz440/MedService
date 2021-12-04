@@ -11,6 +11,7 @@ import androidx.navigation.ui.navigateUp
 import mening.dasturim.medservice.R
 import mening.dasturim.medservice.databinding.ActivityMainBinding
 import mening.dasturim.medservice.ui.base.BaseActivity
+import mening.dasturim.medservice.utils.ViewUtils
 
 class MainActivity : BaseActivity<ActivityMainBinding, MainVM>() {
 
@@ -31,7 +32,34 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainVM>() {
         bottomNavController =
             BottomNavController(binding, binding.partialBottomNav, this, navController)
         navController.addOnDestinationChangedListener { _, destination, _ ->
+            //where navigationBtn should be removed
+            if (destination.id == R.id.ourEnginerFragment ||
+                destination.id == R.id.newEquipmentFragment ||
+                destination.id == R.id.oldEquipmentFragment ||
+                destination.id == R.id.locationAndContact ||
+                destination.id == R.id.myProflle
+            )
+                ViewUtils.fadeOut(binding.partialBottomNav.root)
+            else ViewUtils.fadeIn(binding.partialBottomNav.root)
+
+            //where arrow_back and text should be removed medion logo should be displayed
+            if (destination.id == R.id.homeFragment) {
+                ViewUtils.fadeIn(binding.tvMain)
+                ViewUtils.fadeOut(binding.ivBackArrow)
+                ViewUtils.fadeIn(binding.ivLogo)
+            } else {
+                ViewUtils.fadeIn(binding.ivBackArrow)
+                ViewUtils.fadeIn(binding.tvMain)
+                ViewUtils.fadeOut(binding.ivLogo)
+            }
+            //where tv should be displayed
+            when(destination.id){
+
+                R.id.homeFragment -> binding.tvMain.setText(R.string.app_name)
+            }
         }
+
+
 
         binding.nvNavigationDrawer.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {

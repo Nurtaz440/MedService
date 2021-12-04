@@ -31,7 +31,7 @@
                 android:id="@+id/app_bar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/teal_700"
+                android:background="@color/white"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -48,14 +48,29 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ic_arrow_back" />
+                        app:srcCompat="@drawable/ic_arrow_back"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_logo"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="24dp"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/logo"
+                        tools:ignore="ContentDescription"
+                        />
+
 
                     <TextView
                         android:id="@+id/tv_main"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="70dp"
-                        android:textColor="@color/white"
+                        android:layout_marginStart="54dp"
+                        android:textColor="@color/logo_color"
                         android:textIsSelectable="false"
                         android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="parent"

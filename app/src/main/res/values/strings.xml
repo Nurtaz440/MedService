@@ -13,7 +13,16 @@
 
     <string name="action_ok">Ha</string>
     <string name="msg_unknown_error">Internetga ulanish sust</string>
-    <string name="on_back_pressed">orqaga</string>
+    <string name="on_back_pressed">Chiqish uchun ikki marta bosing</string>
+    <string name="medical_service">Tibbiy hizmat</string>
+
+    <string name="nevralogiya">Nevralogiya</string>
+    <string name="kardiyalogiya">Kardialogiya</string>
+    <string name="stamatologiya">Stomatologiya</string>
+    <string name="lor">Lor</string>
+    <string name="travma">Travmatologiya</string>
+    <string name="urolog">Uralogiya</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

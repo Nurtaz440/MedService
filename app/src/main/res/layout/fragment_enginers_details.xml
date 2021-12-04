@@ -218,6 +218,7 @@
                     android:layout_marginTop="10dp"
                     android:clipToPadding="false"
                     android:overScrollMode="never"
+                    tools:listitem="@layout/item_enginer_details"
                     app:layout_constraintBottom_toTopOf="@id/v_divider2"
                     app:layout_constraintTop_toBottomOf="@id/v_divider"
                     />
@@ -344,7 +345,7 @@
                         app:showSeekBar="true"
                         app:showVideoCurrentTime="true"
                         app:showVideoDuration="true"
-                        app:videoId="kRzNjOcheqk"
+                        app:videoId="JOXooel-J7E"
                         />
 
 

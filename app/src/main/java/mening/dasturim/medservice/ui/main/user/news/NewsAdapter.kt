@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import mening.dasturim.medservice.R
 import mening.dasturim.medservice.data.model.NewsItem
 import mening.dasturim.medservice.databinding.ItemHomeBinding
+import mening.dasturim.medservice.databinding.ItemNewsBinding
 
 class NewsAdapter(private val itemClickListener: (Int) -> Unit) :
     RecyclerView.Adapter<NewsAdapter.VH>() {
@@ -25,7 +26,7 @@ class NewsAdapter(private val itemClickListener: (Int) -> Unit) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
         val inflater = LayoutInflater.from(parent.context)
         val binding =
-            DataBindingUtil.inflate<ItemHomeBinding>(inflater, R.layout.item_home, parent, false)
+            DataBindingUtil.inflate<ItemNewsBinding>(inflater, R.layout.item_news, parent, false)
         return  VH(binding, parent.context)
     }
 
@@ -38,13 +39,13 @@ class NewsAdapter(private val itemClickListener: (Int) -> Unit) :
 
     override fun getItemCount() = listItem.size
 
-    class VH(private val binding: ItemHomeBinding, private val context: Context) :
+    class VH(private val binding: ItemNewsBinding, private val context: Context) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun onBind(item: NewsItem) {
             binding.apply {
-                imageItem.setImageDrawable(ContextCompat.getDrawable(context, item.img))
-                textItem.setText(item.info)
+                ivNews.setImageDrawable(ContextCompat.getDrawable(context, item.img))
+                tvNews.setText(item.info)
             }
         }
 

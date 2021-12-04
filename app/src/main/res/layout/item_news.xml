@@ -32,7 +32,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/logo"
-                    app:civ_border_color="@android:color/holo_blue_dark"
+                    app:civ_border_color="@android:color/holo_orange_dark"
                     app:civ_border_width="2dp"
                     app:layout_constraintStart_toStartOf="parent"
 
@@ -70,9 +70,11 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView
-                android:id="@+id/video_view"
+                android:id="@+id/iv_news"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:src="@drawable/uzb"
+                android:scaleType="fitXY"
                 android:layout_margin="5dp"
 
                 tools:ignore="ContentDescription"

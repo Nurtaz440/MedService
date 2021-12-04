@@ -45,10 +45,81 @@
     <string name="current_job">bosh injiner</string>
     <string name="call">tel qilish</string>
     <string name="past_job">ishchi</string>
+    <string name="sertificate">Sertificat</string>
+    <string name="work">Ish</string>
+    <string name="work_place">Andijon viloyati Medecin Service Markazi</string>
     <string name="send">yuborish</string>
     <string name="undo">qaytarish</string>
 
+
+    <string name="uz_text1">Uzbekistonga shu tiptagi tibbiy jihoz olib kelindi
+  МУЛЬТИСПИРАЛЬНЫЙ КОМПЬЮТЕРНЫЙ ТОМОГРАФ NeuViz 64i, NeuViz 64e С ПРИНАДЛЕЖНОСТЯМИ (ПРИЛОЖЕНИЕ)
+  Uskunani vazifasi Neusoft Medical Systems Co., Ltd ionlashtiruvchi va boshqa turdagi nurlanishdan foydalanishga asoslangan o\'simliklar va uskunalar
+  Bu uskuna Xitoydan olib kelindi
+
+  seriya raaqami: ТТ 11714
+
+  sana 25/04/14
+    </string>
+<string name="uz_text2">Uzbekistonga shu tiptagi tibbiy jihoz olib kelindi
+МОРОЗИЛЬНИК ДЛЯ КРОВИ И ПЛАЗМЫ МОДЕЛЬ LPF-700
+    Uskunani vazifasi Klinik diagnostika laboratoriyalari uchun uskunalar HANSHIN MEDICAL CO., LTD
+  Bu uskuna Koreyadan olib kelindi
+  seriya raaqami:ТТ 14814
+    sana  РУз 25/04/14
+</string>
+<string name="uz_text3">Uzbekistonga shu tiptagi tibbiy jihoz olib kelindi
+СТОЛ ГИДРОМАССАЖНЫЙ НА-90С, МОДЕЛЬ В
+
+  Uskunani vazifasi Kasalxona uskunalari RMS, Inc. SIGNAL HILL, CA.
+  Bu uskuna AQSHdan olib kelindi
+
+  seriya raaqami: ТТ 29510
+
+  sana РУз 30/12/10
+    </string>
+<string name="uz_text4">Uzbekistonga shu tiptagi tibbiy jihoz olib kelindi
+СЛУХОВОЙ АППАРАТ МАРКИ Siemens, МОДЕЛЬ Lotus 23М
+  Uskunani vazifasi Otorinolaringologiya uchun asboblar,
+    apparatlar va uskunalar Siemens Medical Instruments Pte LTD. Siemens Audiologishe Technik GmbH uchun. Germaniya
+  Bu uskuna Singapurdan olib kelindi
+
+  seriya raaqami: ТТ 24912
+
+  sana РУз 28/12/12
+    </string>
+
     <string name="university_name">Toshkent Turin Palitexnika Universiteti</string>
+    <string name="chet_text">
+        ZAMONAVIY FOYDALANILGAN SKANERNING FUNKSIONAL XUSUSIYATLARI QANDAY?
+
+Hozirgi vaqtda ultratovush yordamida tibbiy ko\'rik eng keng tarqalgan diagnostika usullaridan biridir.
+        Bugungi kunda hech qanday tibbiy va diagnostika muassasasi ultratovushli skanersiz ishlamaydi.
+        Tibbiy asbob-uskunalar ishlab chiqaruvchilari iste\'molchiga har yili mukammal va samarali bo\'lgan turli xil modeldagi
+        qurilmalarni taklif qilishadi.
+
+ZAMONAVIY ULTRASONIK SKANERNING AVTOZYATLARI
+Ultratovushli skanerlarning, ayniqsa so\'nggi avlodning mashhurligi, ushbu qurilmalarning bir qator muhim afzalliklarga ega ekanligi
+        bilan bog\'liq bo\'lib, ularning asosiysi, albatta, xavfsizlikdir. Ultratovush diagnostikasi qurilmasi bemorning sog\'lig\'iga
+        hech qanday zarar etkazmaydi. Qurilmaning yuqori darajadagi xavfsizligi uning homilador ayollar, bolalar, shuningdek, og\'ir
+        kasalliklarga chalingan bemorlarni tekshirishda ham qo\'llanilishidan dalolat beradi.
+
+Diagnostika uchun zamonaviy ultratovush uskunasining afzalliklari orasida tadqiqotlarning yuqori ma\'lumotlar mazmuni, ularning og\'riqsizligi
+        va bemorlarning ko\'pchiligi uchun mavjudligini ham ta\'kidlash mumkin. Eng yangi avlod skanerlari yuqori aniqlik va mukammal tasvir sifatiga
+        ega, bu esa miya, yurak-qon tomir tizimi va boshqa muhim organlar va tuzilmalarni kompleks skanerlash imkonini beradi.
+
+ZAMONAVIY ultratovushli skanerlarning FUNKSIONAL IMKONIYATLARI
+So\'nggi avlod ultratovush skanerlari bir qator texnik xususiyatlar tufayli eng murakkab diagnostika tadqiqotlarini o\'tkazishga imkon beradi. Ular orasida:
+
+apparatning nafaqat kichik ob\'ektlarni farqlash, balki bir-biriga yaqin bo\'lgan tuzilmalar chegaralarini ajratish qobiliyatiga ta\'sir
+        qiluvchi yuqori sifatli fazoviy o\'lchamlari (uzunlamasına va ko\'ndalang)
+turli shovqinlar va begona signallar mavjud bo\'lganda ham juda kichik narsalarni aniqlash imkonini beruvchi qurilmaning yuqori sezgirligi
+skanerning yuqori dinamik diapazoni, organlar va to\'qimalardagi eng kichik o\'zgarishlar haqida maksimal ma\'lumotni ta\'minlaydi.
+Ultratovushli skanerlarning ko\'pgina zamonaviy modellari diagnostik tadqiqot natijalarini diskda yozib olish uchun qurilma bilan
+        jihozlangan. Kattalashtirish funksiyasi katta panoramali tasvirlarni batafsilroq o\‘rganish imkonini beradi.
+
+        medmetr.ru
+    </string>
     <string name="about_yourself">
         KT skaneri, MRI skaneri yoki boshqa muhim tibbiy asbob-uskunalar buzilganda, tibbiy asbob-uskunalarni
         ta\'mirlash ustalari muammoni hal qiladigan va tuzatadigan odamlardir.

@@ -37,7 +37,9 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainVM>() {
                 destination.id == R.id.newEquipmentFragment ||
                 destination.id == R.id.oldEquipmentFragment ||
                 destination.id == R.id.locationAndContact ||
-                destination.id == R.id.myProflle
+                destination.id == R.id.myProflle ||
+                destination.id == R.id.enginer ||
+                destination.id == R.id.enginersDetailsFragment
             )
                 ViewUtils.fadeOut(binding.partialBottomNav.root)
             else ViewUtils.fadeIn(binding.partialBottomNav.root)
@@ -53,7 +55,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainVM>() {
                 ViewUtils.fadeOut(binding.ivLogo)
             }
             //where tv should be displayed
-            when(destination.id){
+            when (destination.id) {
 
                 R.id.homeFragment -> binding.tvMain.setText(R.string.app_name)
             }

@@ -38,9 +38,9 @@ class HomeFragment : BaseFragment<FragmentHomeBinding,HomeVM>() {
         binding.list.adapter = adapter
 
         newsAdapter= NewsAdapter {  }
-       // newsAdapter.setData(Constants.getNewsItems())
+        newsAdapter.setData(Constants.getNewsItems())
         binding.rvNews.layoutManager=LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)
-        binding.rvNews.adapter=adapter
+        binding.rvNews.adapter=newsAdapter
     }
 
     @LayoutRes

@@ -7,7 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.main.user.kardialofiya.KardialogiyaFragment"
+        tools:context=".ui.main.user.lor.LorFragment"
         >
 
         <LinearLayout
@@ -34,7 +34,7 @@
                     android:id="@+id/image_item"
                     android:layout_width="184dp"
                     android:layout_height="154dp"
-                    android:src="@drawable/uzb"
+                    android:src="@drawable/im3"
                     android:scaleType="fitXY"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -53,8 +53,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/cv_item"
-                    android:text="МУЛЬТИСПИРАЛЬНЫЙ КОМПЬЮТЕРНЫЙ ТОМОГРАФ NeuViz 64i,
-                     NeuViz 64e С ПРИНАДЛЕЖНОСТЯМИ (ПРИЛОЖЕНИЕ)"
+                    android:text="СЛУХОВОЙ АППАРАТ МАРКИ Siemens, МОДЕЛЬ Lotus 23М"
                     />
 
                 <TextView
@@ -70,7 +69,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/cv_item"
-                    android:text="57 000 000 UZS"
+                    android:text="7 000 000 UZS"
 
                     />
 
@@ -95,7 +94,7 @@
                     android:id="@+id/image_item2"
                     android:layout_width="184dp"
                     android:layout_height="154dp"
-                    android:src="@drawable/kardialogiya1"
+                    android:src="@drawable/im4"
                     android:scaleType="fitXY"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

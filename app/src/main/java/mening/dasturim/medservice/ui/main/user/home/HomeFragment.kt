@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import mening.dasturim.medservice.R
@@ -20,24 +21,28 @@ class HomeFragment : BaseFragment<FragmentHomeBinding,HomeVM>() {
     private lateinit var adapter: HomeAdapter
     private lateinit var newsAdapter: NewsAdapter
 
+
     override fun onBound() {
         setUp()
     }
 
     fun setUp(){
 
-//        adapter = HomeAdapter {
-//            when (it) {
-//                it -> findNavController().navigate(R.id.ourDoctorsFragment)
-//            }
-//        }
+        adapter = HomeAdapter { item->
 
-        adapter= HomeAdapter {  }
+  //              findNavController().navigate(R.id.lorFragment)
+//                1 -> findNavController().navigate(R.id.lorFragment)
+//                2 -> findNavController().navigate(R.id.lorFragment)
+//                3 -> findNavController().navigate(R.id.lorFragment)
+//                4 -> findNavController().navigate(R.id.lorFragment)
+//                5 -> findNavController().navigate(R.id.kardialogiyaFragment)
+
+        }
+
         adapter.setData(Constants.getHomeItems())
         binding.list.enableViewScaling(true)
         binding.list.adapter = adapter
 
-        newsAdapter= NewsAdapter {  }
         newsAdapter.setData(Constants.getNewsItems())
         binding.rvNews.layoutManager=LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)
         binding.rvNews.adapter=newsAdapter

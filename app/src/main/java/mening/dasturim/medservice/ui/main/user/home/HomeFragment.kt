@@ -21,7 +21,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding,HomeVM>() {
     private lateinit var adapter: HomeAdapter
     private lateinit var newsAdapter: NewsAdapter
 
-
     override fun onBound() {
         setUp()
     }

@@ -27,21 +27,14 @@ class HomeFragment : BaseFragment<FragmentHomeBinding,HomeVM>() {
 
     fun setUp(){
 
-        adapter = HomeAdapter { item->
-
-  //              findNavController().navigate(R.id.lorFragment)
-//                1 -> findNavController().navigate(R.id.lorFragment)
-//                2 -> findNavController().navigate(R.id.lorFragment)
-//                3 -> findNavController().navigate(R.id.lorFragment)
-//                4 -> findNavController().navigate(R.id.lorFragment)
-//                5 -> findNavController().navigate(R.id.kardialogiyaFragment)
-
+        adapter = HomeAdapter {
         }
 
         adapter.setData(Constants.getHomeItems())
         binding.list.enableViewScaling(true)
         binding.list.adapter = adapter
 
+        newsAdapter=NewsAdapter {  }
         newsAdapter.setData(Constants.getNewsItems())
         binding.rvNews.layoutManager=LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)
         binding.rvNews.adapter=newsAdapter
